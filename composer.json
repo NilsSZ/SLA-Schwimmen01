@@ -1,0 +1,13 @@
+{
+    "name": "sla-schwimmen/sla-projekt",
+    "description": "Ein Projekt für SLA-Schwimmen",
+    "autoload": {
+        "psr-4": {
+            "SlaSchwimmen\\SlaProjekt\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^3.8",
+        "dompdf/dompdf": "2.0"
+    }
+}
